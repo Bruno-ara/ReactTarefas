@@ -36,7 +36,7 @@ const Tarefas = () => {
     };
     return (
         <>
-            <div className="todo-container">
+            <div className="max-w-md mx-auto p-6 rounded-3xl bg-blue-400 border border-red-700 mt-1">
                 <h2>Minha Lista de Tarefas</h2>
                 {/* chama afunção AdicionarTarefa */}
                 <form onSubmit={adicionarTarefa} className="todo-form">
